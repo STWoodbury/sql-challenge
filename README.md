@@ -13,7 +13,7 @@ This project examines the employees of Pewlett Hackard from the 1980s and 1990's
     <li><b>dept_manager:</b> links employees to their respective departments for all employees with a manager title</li>
 </ul>
 
-The ERD image for the above tables can be found in the [ERD_Employee_Info file](EmployeeSQL/ERD_Employee_Info)
+The ERD image for the above tables can be found in the [ERD_Employee_Info file](EmployeeSQL/ERD_Employee_Info.png)
 
 The table schema SQL file can be found in the [Employee_Info_Table_Shemata file](EmployeeSQL/Employee_Info_Table_Shemata.sql)
 
