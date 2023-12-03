@@ -11,11 +11,11 @@ CREATE TABLE "departments" (
      )
 );
 
-CREATE TABLE "dept_manager" (
-    "dept_no" CHAR(4)   NOT NULL,
-    "emp_no" INT   NOT NULL,
-    CONSTRAINT "pk_dept_manager" PRIMARY KEY (
-        "dept_no","emp_no"
+CREATE TABLE "titles" (
+    "title_id" CHAR(5)   NOT NULL,
+    "title" VARCHAR   NOT NULL,
+    CONSTRAINT "pk_titles" PRIMARY KEY (
+        "title_id"
      )
 );
 
@@ -32,6 +32,14 @@ CREATE TABLE "employees" (
      )
 );
 
+CREATE TABLE "dept_manager" (
+    "dept_no" CHAR(4)   NOT NULL,
+    "emp_no" INT   NOT NULL,
+    CONSTRAINT "pk_dept_manager" PRIMARY KEY (
+        "dept_no","emp_no"
+     )
+);
+
 CREATE TABLE "department_emp" (
     "emp_no" INT   NOT NULL,
     "dept_no" CHAR(4)   NOT NULL,
@@ -45,14 +53,6 @@ CREATE TABLE "salaries" (
     "salary" INT   NOT NULL,
     CONSTRAINT "pk_salaries" PRIMARY KEY (
         "emp_no"
-     )
-);
-
-CREATE TABLE "titles" (
-    "title_id" CHAR(5)   NOT NULL,
-    "title" VARCHAR   NOT NULL,
-    CONSTRAINT "pk_titles" PRIMARY KEY (
-        "title_id"
      )
 );
 
