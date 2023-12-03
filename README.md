@@ -2,7 +2,7 @@
 
 ## Engineering/Modeling Overview
 
-This project examines the employees of Pewlett Hackard from the 1980s and 1990's. It takes the company's (CSV files)[EmployeeSQL/data] and imports them into a Postgresql database in the following tables:
+This project examines the employees of Pewlett Hackard from the 1980s and 1990's. It takes the company's [CSV files](EmployeeSQL/data) and imports them into a Postgresql database in the following tables:
 
 <ul>
     <li><b>titles:</b> outlines the company's job titles and title ids</li>
@@ -13,9 +13,9 @@ This project examines the employees of Pewlett Hackard from the 1980s and 1990's
     <li><b>dept_manager:</b> links employees to their respective departments for all employees with a manager title</li>
 </ul>
 
-The ERD image for the above tables can be found in the (ERD_Employee_Info file)[EmployeeSQL/ERD_Employee_Info] 
+The ERD image for the above tables can be found in the [ERD_Employee_Info file](EmployeeSQL/ERD_Employee_Info)
 
-The table schema SQL file can be found in the (Employee_Info_Table_Shemata file)[EmployeeSQL/Employee_Info_Table_Shemata.sql]
+The table schema SQL file can be found in the [Employee_Info_Table_Shemata file](EmployeeSQL/Employee_Info_Table_Shemata.sql)
 
 ## Data Analysis Overview
 
@@ -32,7 +32,7 @@ This database was queried to answer the following questions:
    <li>List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name) </li>
 </ol>
 
-The above queries can be found in the (Employee_Info_Queries file)[EmployeeSQL/Employee_Info_Queries.sql]
+The above queries can be found in the [Employee_Info_Queries file](EmployeeSQL/Employee_Info_Queries.sql)
 
 
 
